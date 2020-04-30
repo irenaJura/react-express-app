@@ -3,10 +3,10 @@ import { addNewTask, updateTask } from "./server";
 (async function myFunc() {
   await addNewTask({
     name: "My task",
-    id: "12346",
+    id: "12348",
   });
   await updateTask({
-    name: "Updated task",
-    id: "12346",
+    name: "Done",
+    id: "12348",
   });
 })();
